@@ -1,0 +1,91 @@
+ex1
+
+const ask = require('readline-sync')
+
+let fullName = ask.question("Insert full name: ")
+let age = ask.question("Insert age: ")
+let city = ask.question("Insert city: ")
+let enrolled = true???????????
+let height = ask.question("Insert height: ")
+let classes = "RS-TI 261M"??????????
+
+console.log(`
+Full Name: ${fullName}
+Age: ${age}
+City: ${city}
+Registered: ${enrolled}
+Height: ${height}
+Class: ${classes}
+`)
+
+ex2
+
+let consoleName =  "Nintendo Switch 2"
+let brand = "33º"
+let averagePrice = 4.200
+let storage = 256
+let cdDrive = true
+
+console.log (`
+Product Name: ${consoleName}
+Brand: ${brand}
+Price: R$ ${averagePrice} 
+Storage: ${storage}gb
+CD Drive: ${cdDrive}
+` )
+
+ex3
+
+let value = "250"
+console.log(typeof value) //string
+
+let value1 = 250
+console.log(typeof value) //number
+
+let value2 = true
+console.log(typeof value) //boolean
+
+let value3 = "false"
+console.log(typeof value) //string
+
+let value4 = "JavaScript"
+console.log(typeof value) //string
+
+let value5 = 3.14159
+console.log(typeof value) //number
+
+ex4
+
+let age = "22"
+console.log(typeof age)
+
+let πρ = "2850.50"
+console.log(typeof πρ)
+
+let withChildren = "1"
+console.log(typeof withChildren)
+
+Number(age)
+Number(πρ)
+Number(withChildren)
+
+console.log(typeof age)
+console.log(typeof πρ)
+console.log(typeof withChildren)
+
+?////////////////
+
+ex5
+
+let keyboard = 249.90
+let mouse = 119.90
+let headset = 349.90
+
+let result = (keyboard + mouse + headset)
+console.log(result) //719.7
+
+let resultDivision = (result / 3)
+console.log (resultDivision) //239.9
+
+let change = (1000 % result)
+console.log (change) //280.29999999999995
